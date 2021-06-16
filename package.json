@@ -1,14 +1,14 @@
 {
   "name": "@returntc/vue-plyr",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "A vue component for the plyr video & audio player.",
   "license": "MIT",
   "author": {
-    "name": "Gabe Dunn",
-    "email": "gabe@redxtech.ca",
-    "url": "https://gabedunn.dev"
+    "name": "Return Technologies",
+    "email": "admin@return.tc",
+    "url": "https://return.team"
   },
-  "repository": "github:redxtech/vue-plyr",
+  "repository": "github:returntc/vue-plyr",
   "scripts": {
     "prebuild": "rm -rf dist/",
     "build": "NODE_ENV=production rollup --c rollup.config.js",
@@ -29,7 +29,7 @@
     "src/**/*.vue"
   ],
   "dependencies": {
-    "plyr": "github:sampotts/plyr#develop",
+    "plyr": "^3.6.8",
     "vue": "^2.6.12"
   },
   "devDependencies": {
